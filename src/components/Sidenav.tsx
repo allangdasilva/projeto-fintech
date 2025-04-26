@@ -17,7 +17,7 @@ const Sidenav = () => {
             <span>
               <img src={resumo} alt="" />
             </span>
-            <NavLink to={"/"}>Resumo</NavLink>
+            <NavLink to={"/projeto-fintech"}>Resumo</NavLink>
           </li>
           <li>
             <span>
