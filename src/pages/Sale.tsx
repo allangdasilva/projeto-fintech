@@ -1,6 +1,5 @@
-import React from "react";
 import { useParams } from "react-router-dom";
-import { IVenda, useData } from "../context/DataContext";
+import { IVenda } from "../context/DataContext";
 import useFetch from "../hooks/useFetch";
 import Loading from "../components/Loading";
 
