@@ -22,7 +22,7 @@ type IVenda = {
 const DataContext = React.createContext<IDataContext | null>(null);
 function getDate(n: number) {
   const date = new Date();
-  // O get date aceita um numero para somar ao dia.
+  // O setDate já seta o dia de date. O getDate aceita um numero para somar a data/dia.
   date.setDate(date.getDate() - n);
   // Pego a data, transformo em string, uso o padStart para adicionar '0' antes
   // da data/dia. padStart recebe 2 parâmetros, um number que é o tamanho maximo

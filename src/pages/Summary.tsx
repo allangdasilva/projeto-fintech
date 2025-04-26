@@ -1,9 +1,8 @@
-import React from "react";
 import { useData } from "../context/DataContext";
 
 const Summary = () => {
   const { data } = useData();
-  //console.log(data);
+  console.log(data);
   return <div>Summary</div>;
 };
 
