@@ -1,9 +1,9 @@
 import React from "react";
 import DateInput from "./DateInput";
+import { useData } from "../context/DataContext";
 
 const DateRange = () => {
-  const [inicio, setInicio] = React.useState("");
-  const [final, setFinal] = React.useState("");
+  const { inicio, final, setInicio, setFinal } = useData();
 
   return (
     <>
@@ -14,12 +14,14 @@ const DateRange = () => {
           value={inicio}
           onChange={({ target }) => setInicio(target.value)}
         />
+        {inicio}
         <DateInput
           label="Final"
           id="final"
           value={final}
           onChange={({ target }) => setFinal(target.value)}
         />
+        {final}
       </form>
     </>
   );
