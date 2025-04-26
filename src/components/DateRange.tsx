@@ -7,7 +7,7 @@ const DateRange = () => {
 
   return (
     <>
-      <form onSubmit={(event) => event.preventDefault()}>
+      <form className="box flex" onSubmit={(event) => event.preventDefault()}>
         <DateInput
           label="Início"
           id="inicio"

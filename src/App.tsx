@@ -7,11 +7,13 @@ function App() {
   return (
     <>
       <DataContextProvider>
-        <Sidenav />
-        <main>
-          <Header />
-          <Summary />
-        </main>
+        <div className="container">
+          <Sidenav />
+          <main>
+            <Header />
+            <Summary />
+          </main>
+        </div>
       </DataContextProvider>
     </>
   );
