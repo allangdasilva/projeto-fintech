@@ -51,19 +51,19 @@ const SalesChart = ({ data }: { data: IVenda[] }) => {
           <Line
             type="monotone"
             dataKey="falha"
-            stroke="#ff7300"
-            strokeWidth={3}
-          />
-          <Line
-            type="monotone"
-            dataKey="pago"
-            stroke="#387908"
+            stroke="#d32417"
             strokeWidth={3}
           />
           <Line
             type="monotone"
             dataKey="processando"
-            stroke="#4b5cb8"
+            stroke="#3147c0"
+            strokeWidth={3}
+          />
+          <Line
+            type="monotone"
+            dataKey="pago"
+            stroke="#19a806"
             strokeWidth={3}
           />
         </LineChart>

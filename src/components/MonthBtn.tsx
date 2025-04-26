@@ -47,7 +47,11 @@ const MonthBtn = ({ n }: { n: number }) => {
   }
   return (
     <>
-      <button style={buttonStyle} onClick={() => setMonth(n)}>
+      <button
+        className="monthBtn"
+        style={buttonStyle}
+        onClick={() => setMonth(n)}
+      >
         {nameMonth(n)}
       </button>
     </>

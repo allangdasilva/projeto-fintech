@@ -1,8 +1,8 @@
 html {
   --color-1: #463220;
   --color-2: #66593c;
-  --color-3: #eceadd;
-  --color-4: #f7f8f5;
+  --color-3: #dbd8c1;
+  --color-4: rgb(247, 248, 245);
   --color-5: #ffffff;
   --gap-s: 0.625rem;
   --gap: 1.25rem;
@@ -173,5 +173,15 @@ ul {
   }
   .sale div:last-child {
     justify-self: start;
+  }
+}
+@media screen and (max-width: 400px) {
+  .sidenav ul {
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 400px) {
+  .monthBtn {
+    text-align: start;
   }
 }
